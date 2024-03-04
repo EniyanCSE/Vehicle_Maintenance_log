@@ -1,13 +1,14 @@
-#Vehicle Maintenance Log
+# Vehicle Maintenance Log
+
 This Streamlit application allows users to maintain a log of vehicle maintenance activities. Users can input details such as date, mileage, performed tasks, service costs, and next service due date. Additionally, users can create new vehicle logs and download log details as a PDF.
 
-##Usage
+## Usage
 Installation: Ensure you have Python installed. Clone this repository and install the necessary dependencies using pip install -r requirements.txt.
 
-##Running the Application: Run the Streamlit application using the
+## Running the Application: Run the Streamlit application using the
  ```streamlit run app.py ```
 
-##Creating New Vehicle Log:
+## Creating New Vehicle Log:
 
 Click on the "Create New Vehicle Log" button in the sidebar.
 Enter the log date and other details.
@@ -20,7 +21,7 @@ Downloading Log Details as PDF:
 
 After selecting a log date, click on the "Download as PDF" button to download the log details as a PDF document.
 
-##File Structure
+## File Structure
 app.py: Contains the main Streamlit application code.
 vehicle_maintenance_log.xlsx: Excel file used to store vehicle maintenance log data.(will be created autometically while running the program)
 ##Dependencies
